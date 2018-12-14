@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="/blog/" rel="alternate" type="text/html" /><updated>2018-12-13T20:29:58-05:00</updated><id>/feed.xml</id><title type="html">Laudy Navarrete Rodríguez</title><subtitle>¡Hola! Soy Laudy Navarrete Rodríguez Soy Ingeniera en sistemas,  egresada de la UNAD y originaria de Colombia, me apasiona todo lo  relacionado con la programación, ya sea en desarrollo de sistemas  de software especializado, plataformas web. Soy Desarrolladora bak-end, apasionada por las últimas tendencias de desarrollo.</subtitle><entry><title type="html">Bootstrap 4!</title><link href="/blog/bootstrap/4/2018/12/12/bootstrap-4.html" rel="alternate" type="text/html" title="Bootstrap 4!" /><published>2018-12-12T11:39:04-05:00</published><updated>2018-12-12T11:39:04-05:00</updated><id>/bootstrap/4/2018/12/12/bootstrap-4</id><content type="html" xml:base="/bootstrap/4/2018/12/12/bootstrap-4.html">&lt;p&gt;&lt;img src=&quot;https://getbootstrap.com/docs/4.1/assets/img/bootstrap-stack.png&quot; alt=&quot;Drawing&quot; style=&quot;width: 300px ;&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;diferenciasprincipales-entre-bootstrap-3-y-4&quot;&gt;Diferenciasprincipales entre Bootstrap 3 y 4&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;Procesador CSS:&lt;/strong&gt;
+Cambio de procesador de css que tiene bootstrap 4, en esta versión se ha optado exclusivamente por Sass ya que compila  más rápido.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Soporte Internet Explorer 8:&lt;/strong&gt;
+Bootstrap 4 no tiene soporte para internet explorer 8.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Mejora de la Grida:&lt;/strong&gt; 
+El cambio es sencillo, se ha pasado de los pixeles a medidas relativas utilizando la unidad “rem” para conseguirlo.Este cambio también influye en la media queries.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;No tiene GLYPHICONS:&lt;/strong&gt;
+El que no poseea esto puede ser una ventaja o desventaja, dependiendo del usuario, ya que muchos no los utilizában nunca, con lo que es un peso que se quita de la css.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;JAVASCRIPT reescrito en ES6:&lt;/strong&gt;
+Los diversos plugin de Bootstrap han pasado a JavasScript ES6 que tiene una sintaxis mucho más clara y simple para la creación de objetos y las herencias.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Nuevas clases:&lt;/strong&gt;
+Bootstrap 4 incorpora nuevas clases para dar estilos a los botones, estilos para cabeceras, tablas.&lt;/p&gt;
+
+&lt;p&gt;Incluye tarjetas que sustituyen a well, panel y thumbnail. Es un contenedor flexible que tiene opciones de introducir cabecera pie y gran variedad de contenidos.&lt;/p&gt;
+
+&lt;p&gt;También incluyen nuevas clases (Utility classes)  que nos ayudaran a controlar los margin y padding de los elementos de nuestra plantilla.&lt;/p&gt;
+
+&lt;h1 id=&quot;cmd&quot;&gt;CMD&lt;/h1&gt;
+
+&lt;p&gt;Si no queremos instalar bootstrap 4 entonces podemos usar el CMD, así:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;!-- Latest compiled and minified CSS --&amp;gt;
+&amp;lt;link rel=&quot;stylesheet&quot; href=&quot;https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css&quot;&amp;gt;
+
+&amp;lt;!-- jQuery library --&amp;gt;
+&amp;lt;script src=&quot;https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js&quot;&amp;gt;&amp;lt;/script&amp;gt;
+
+&amp;lt;!-- Popper JS --&amp;gt;
+&amp;lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js&quot;&amp;gt;&amp;lt;/script&amp;gt;
+
+&amp;lt;!-- Latest compiled JavaScript --&amp;gt;
+&amp;lt;script src=&quot;https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js&quot;&amp;gt;&amp;lt;/script&amp;gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Bootstrap 3!</title><link href="/blog/bootstrap/3/2018/12/11/bootstrap-3.html" rel="alternate" type="text/html" title="Bootstrap 3!" /><published>2018-12-11T17:39:04-05:00</published><updated>2018-12-11T17:39:04-05:00</updated><id>/bootstrap/3/2018/12/11/bootstrap-3</id><content type="html" xml:base="/bootstrap/3/2018/12/11/bootstrap-3.html">&lt;p&gt;&lt;img src=&quot;https://getbootstrap.com/docs/4.1/assets/img/bootstrap-stack.png&quot; alt=&quot;Drawing&quot; style=&quot;width: 300px ;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Bootstrap es un framework desarrollado y liberado por Twitter que tiene como objetivo facilitar el diseño web. Permite crear de forma sencilla webs de diseño adaptable, es decir, que se ajusten a cualquier dispositivo y tamaño de pantalla y siempre se vean igual de bien. Es Open Source o código abierto, por lo que lo podemos usar de forma gratuita y sin restricciones.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Ventajas de usar Bootstrap:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Permite simplificar el proceso de maquetación, sirviéndonos de guía para aplicar las buenas prácticas y los diferentes estándares.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Tener una web bien organizada de forma visual rápidamente: la curva de aprendizaje hace que su manejo sea asequible y rápido si ya sabes maquetar.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Permite utilizar muchos elementos web: desde iconos a desplegables, combinando HTML5, CSS y Javascript.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Sea lo que sea que creemos, el diseño será adaptable, no importa el dispositivo, la escala o resolución.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;El grid system: maquetar por columnas nunca fue tan fácil. Además, son muy configurables.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Se integra muy bien con las principales librerías Javascript.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;El haber sido creado por Twitter nos da ciertas garantías: está muy pensado y hay mucho trabajo ya hecho. Por lo tanto, hay una comunidad muy activa creando, arreglando cosas, ofreciendo plugins y mucho más..&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Cuenta con implementaciones externas para WordPress, Drupal, etc.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Para empaparse más del tema:  &lt;a href=&quot;https://getbootstrap.com/&quot;&gt;bootstrap&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;CMD&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Si no queremos instalar bootstrap 3 entonces podemos usar el CMD, así:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;!-- Latest compiled and minified CSS --&amp;gt;
+&amp;lt;link rel=&quot;stylesheet&quot; href=&quot;https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css&quot; integrity=&quot;sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u&quot; crossorigin=&quot;anonymous&quot;&amp;gt;
+
+&amp;lt;!-- Optional theme --&amp;gt;
+&amp;lt;link rel=&quot;stylesheet&quot; href=&quot;https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css&quot; integrity=&quot;sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp&quot; crossorigin=&quot;anonymous&quot;&amp;gt;
+
+&amp;lt;!-- Latest compiled and minified JavaScript --&amp;gt;
+&amp;lt;script src=&quot;https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js&quot; integrity=&quot;sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa&quot; crossorigin=&quot;anonymous&quot;&amp;gt;&amp;lt;/script&amp;gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Markdown!</title><link href="/blog/markdown/2018/12/11/markdown.html" rel="alternate" type="text/html" title="Markdown!" /><published>2018-12-11T17:39:04-05:00</published><updated>2018-12-11T17:39:04-05:00</updated><id>/markdown/2018/12/11/markdown</id><content type="html" xml:base="/markdown/2018/12/11/markdown.html">&lt;p&gt;&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Markdown-mark.svg/375px-Markdown-mark.svg.png&quot; alt=&quot;Drawing&quot; style=&quot;width: 300px ;&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;que-es-markdown&quot;&gt;¿Que es Markdown?&lt;/h1&gt;
+
+&lt;p&gt;Es un lenguaje de marcado ligero parecido al que se emplea en muchas wikis y basado originalmente en convenciones existentes en el marcado de los correos electronicos. Emplea texto plano, procurando que sea legible pero consiguiendo que se convierta en XHTML correctamente formateado. Los artículos de este sitio están elaborados empleando markdown, sin utilizar ningún tipo de editor visual WYSIWYG, lo que facilita el crear documentos XHTML limpios y fácilmente editables en el futuro. Son un buen ejemplo de las capacidades de Markdown. Aunque no es muy conocido, empieza a ser muy popular y utilizado entre los programadores.&lt;/p&gt;
+
+&lt;p&gt;Para empaparse más del tema:  &lt;a href=&quot;https://www.markdownguide.org/&quot;&gt;markdown&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;algunos-ejemplos-de-sintaxis-markdown&quot;&gt;Algunos ejemplos de sintaxis Markdown:&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;Cabeceras:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Los encabezamientos HTML se producen colocando un número determinado de almohadillas # antes del texto correspondiente al nivel de encabezamiento deseado (HTML ofrece hasta seis niveles):&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# Esto es un H1
+## Esto es un H2
+### Esto es un H3
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="/blog/jekyll/update/2018/12/11/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2018-12-11T17:29:04-05:00</published><updated>2018-12-11T17:29:04-05:00</updated><id>/jekyll/update/2018/12/11/welcome-to-jekyll</id><content type="html" xml:base="/jekyll/update/2018/12/11/welcome-to-jekyll.html">&lt;p&gt;Jekyll es un gestor de contenido estático. No depende de ninguna base de datos, ni de ningún lenguaje de servidor. Utiliza ficheros de texto para almacenar los contenidos y los datos. Estos pueden dividirse en:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;_Ficheros de configuración:&lt;/code&gt;  Almacenan la configuración general del sitio y las opciones de personalización.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;_Ficheros de contenido:&lt;/code&gt; Almacenan los contenidos de las páginas del sitio.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;_Ficheros de datos:&lt;/code&gt; Permiten crear estructuras de datos que pueden ser mostrados en las distintas páginas del sitio o utilizarse para generar estructuras, menús de navegación, listas,…&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;_Ficheros de plantillas:&lt;/code&gt; Se utilizan para crear la estructura de las páginas que componen el sitio web.&lt;/p&gt;
+
+&lt;p&gt;Jekyll utiliza un sistema de plantillas denominado Liquid para combinar los distintos tipos de ficheros y crear el resultado final: un sitio web totalmente estático que utiliza únicamente HTML, CSS y JavaScript.&lt;/p&gt;
+
+&lt;p&gt;Para documentarse más acerca de Jekyll puede consultarse:   &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;jekyll&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Jekyll es un gestor de contenido estático. No depende de ninguna base de datos, ni de ningún lenguaje de servidor. Utiliza ficheros de texto para almacenar los contenidos y los datos. Estos pueden dividirse en:</summary></entry></feed>
